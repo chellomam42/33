@@ -3,11 +3,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 # Configs
-API_HASH = os.environ['API_HASH']
-APP_ID = int(os.environ['APP_ID'])
-BOT_TOKEN = os.environ['BOT_TOKEN']
-TRACK_CHANNEL = int(os.environ['TRACK_CHANNEL'])
-OWNER_ID = os.environ['OWNER_ID']
+API_HASH = os.environ['0725536d8a60e48c79cb1536a2a63728']
+APP_ID = int(os.environ['940689'])
+BOT_TOKEN = os.environ['5440790983:AAENnSvCOUEf0D7KcWj2DFOJKeIPVdQZJLc']
+TRACK_CHANNEL = int(os.environ['-1001516926487'])
+OWNER_ID = os.environ['173053026']
 
 #Button
 START_BUTTONS=[
@@ -15,7 +15,7 @@ START_BUTTONS=[
         InlineKeyboardButton('Source', url='https://github.com/X-Gorn/File-Sharing'),
         InlineKeyboardButton('Project Channel', url='https://t.me/xTeamBots'),
     ],
-    [InlineKeyboardButton('Author', url="https://t.me/xgorn")],
+    [InlineKeyboardButton('Author', url="https://t.me/DrM4soudHK")],
 ]
 
 # Running bot
